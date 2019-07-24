@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="950ebc79-b3f8-48bd-9c54-99109cbecf14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../checkidcard/.idea/artifacts/checkidcard_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkidcard/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkidcard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkidcard/checkidcard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/doc/busdetail.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/doc/若依环境使用手册v1.0.2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/ry.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/sql/ods.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/RuoYiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/RuoYiServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/constant/CommonMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/constant/OdsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/constant/PermissionConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/constant/ScheduleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/constant/ShiroConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/constant/UserConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/enums/NumberEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/enums/YesOrNo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/DemoModeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/base/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/file/InvalidExtensionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/job/TaskException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/ods/OdsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/CaptchaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/RoleBlockedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/UserBlockedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/UserDeleteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/UserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/UserNotExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitCountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitExceedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/support/CharsetKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/support/Convert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/support/StrFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/AddressUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/IpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/LogUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/MapDataUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/Md5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/ServletUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/TreeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/bean/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/file/BigFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/file/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/file/IHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/http/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/security/PermissionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/security/ShiroUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/utils/spring/SpringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/xss/XssFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/common/xss/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/DataScopeAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/DataSourceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/DataScope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Excel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/enums/BusinessStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/enums/BusinessType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/enums/DataSourceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/aspectj/lang/enums/OperatorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/GenConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/I18nConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/KaptchaTextCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/ODSConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/ResourcesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/RuoYiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/ScheduleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/datasource/DynamicDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/manager/AsyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/manager/factory/AsyncFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/realm/UserRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/service/PasswordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/session/OnlineSessionDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/session/OnlineSessionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/web/filter/LogoutFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/web/filter/online/OnlineSessionFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/web/session/OnlineWebSessionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/domain/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/exception/DefaultExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/page/PageDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/page/TableDataInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/page/TableSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/service/ConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/service/DictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/framework/web/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/margeFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/common/CommonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/druid/DruidController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/controller/JobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/controller/JobLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/domain/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/domain/JobLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/mapper/JobLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/mapper/JobMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/service/IJobLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/service/IJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/service/JobLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/service/JobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/task/RyTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/util/CronUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/logininfor/controller/LogininforController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/logininfor/domain/Logininfor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/logininfor/mapper/LogininforMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/logininfor/service/ILogininforService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/logininfor/service/LogininforServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/online/controller/UserOnlineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/online/domain/OnlineSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/online/domain/UserOnline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/online/mapper/UserOnlineMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/online/service/IUserOnlineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/online/service/UserOnlineServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/operlog/controller/OperlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/operlog/domain/OperLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/operlog/mapper/OperLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/operlog/service/IOperLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/monitor/operlog/service/OperLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/bus/controller/BusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/bus/domain/Bus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/bus/mapper/BusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/bus/service/BusServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/bus/service/IBusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busConfig/controller/BusConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busConfig/domain/BusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busConfig/mapper/BusConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busConfig/service/BusConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busConfig/service/IBusConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busDetail/controller/BusDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busDetail/domain/BusDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busDetail/mapper/BusDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busDetail/service/BusDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/busDetail/service/IBusDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/plan/controller/PlanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/plan/domain/Plan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/plan/mapper/PlanMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/plan/service/IPlanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/plan/service/PlanServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/task/CensusTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/task/ODSTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/task/ODSTaskHelp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/Util/UnitSqlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/constans/NetBankType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/constans/TableConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/constans/TimeConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/controller/PhoneBankController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/controller/PhoneBankDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/controller/UnifiedDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/controller/UnifieldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/BaseBankCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/BaseBankPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/BaseUnified.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/BaseUnifiedChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/netbank/PhoneBankChartCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/netbank/PhoneBankChartPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/netbank/PhoneBankCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/netbank/PhoneBankCustomerDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/netbank/PhoneBankPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/netbank/PhoneBankPaymentDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifiedChartCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifiedChartPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifiedChartWithDraw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifiedCustomerDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifiedPaymentDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifieldSignCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifieldSignPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/domain/unified/UnifieldSignWithDrawal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/netbank/PhoneBankCustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/netbank/PhoneBankDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/netbank/PhoneBankMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/netbank/PhoneBankPaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/unified/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/unified/UnifiedDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/unified/UnifieldSignCustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/unified/UnifieldSignPaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/mapper/unified/UnifieldSignWithDrawRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/PhoneBankDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/PhoneBankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/UnifiedDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/UnifiedService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/impl/PhoneBankDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/impl/PhoneBankServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/impl/UnifiedDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/ods/tongji/service/impl/UnifiedServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/config/controller/ConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/config/domain/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/config/mapper/ConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/config/service/ConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/config/service/IConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dept/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dept/domain/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dept/mapper/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dept/service/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dept/service/IDeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/controller/DictDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/controller/DictTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/domain/DictData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/domain/DictType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/mapper/DictDataMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/mapper/DictTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/service/DictDataServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/service/IDictDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/dict/service/IDictTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/menu/controller/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/menu/domain/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/menu/mapper/MenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/menu/service/IMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/menu/service/MenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/notice/controller/NoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/notice/domain/Notice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/notice/mapper/NoticeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/notice/service/INoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/notice/service/NoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/post/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/post/domain/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/post/domain/PostMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/post/mapper/PostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/post/mapper/PostMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/post/service/IPostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/post/service/PostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/domain/RoleDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/domain/RoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/mapper/RoleDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/mapper/RoleMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/service/IRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/role/service/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/controller/CaptchaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/controller/ProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/domain/UserMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/domain/UserPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/domain/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/domain/UserStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/mapper/UserMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/mapper/UserPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/mapper/UserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/system/user/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/build/BuildController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/controller/GenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/domain/ColumnInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/domain/TableInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/mapper/GenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/service/GenServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/service/IGenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/util/GenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/gen/util/VelocityInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/swagger/SwaggerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/java/com/ruoyi/project/tool/swagger/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/application-druid.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/ehcache/ehcache-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/monitor/JobLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/monitor/JobMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/monitor/LogininforMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/monitor/OnlineMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/monitor/OperLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/BusConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/BusDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/BusMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/PhoneBankDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/PhoneBankMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/PlanMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/ods/UnifiedDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/ConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/DictDataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/DictTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/MenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/NoticeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/PostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/PostMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/RoleDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/RoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/UserMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/UserPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/system/UserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/mybatis/tool/GenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/beautifyhtml/beautifyhtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/blockUI/jquery.blockUI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/bootstrap-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/bootstrap-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/editable/bootstrap-table-editable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/editable/bootstrap-table-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/export/bootstrap-table-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/export/tableExport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/mobile/bootstrap-table-mobile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-treetable/bootstrap-treetable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/bootstrap-treetable/bootstrap-treetable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/cropbox/cropbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/cropbox/cropbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/datapicker/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/datapicker/datepicker3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/fullscreen/jquery.fullscreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/iCheck/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/iCheck/green-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/iCheck/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/iCheck/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-layout/jquery.layout-latest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-layout/jquery.layout-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/1_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/1_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/line_conn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/metro.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/left_menu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/left_menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.all-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.core-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.excheck-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.exedit-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.exhide-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/jquery-ztree/3.5/log v3.x.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layer/layer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layer/theme/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layer/theme/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layer/theme/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layer/theme/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layer/theme/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layer/theme/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/select/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/select/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/font/summernote.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/summernote-0.8.8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/summernote-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/summernote-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/summernote-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/summernote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/summernote/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/validate/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/validate/jquery.validate.extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/validate/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ajax/libs/validate/messages_zh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/login.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/main/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/main/bootstrap.min14ed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/main/font-awesome.min93e3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/main/style.min862f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/patterns/header-profile-skin-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/patterns/header-profile-skin-yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/patterns/header-profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/patterns/shattered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/excelTemplate/bus.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/excelTemplate/busdetail.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/file/rml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/loading-upload.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/login-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/qr_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/js/echarts.common.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/js/jquery-ui-1.10.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/js/plugins/metisMenu/jquery.metisMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/js/plugins/slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ods/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ods/customerChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ods/phoneBankChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ods/unifiedDetailChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ruoyi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ruoyi/css/ry-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ruoyi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ruoyi/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ruoyi/js/ry-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/static/ruoyi/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/error/unauth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/include.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/job/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/job/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/job/job.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/job/jobLog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/logininfor/logininfor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/online/online.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/operlog/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/monitor/operlog/operlog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/bus/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/bus/bus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/bus/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/busConfig/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/busConfig/busConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/busConfig/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/busDetail/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/busDetail/busDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/busDetail/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/plan/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/plan/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/plan/plan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/netbank/chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/netbank/pcustomer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/netbank/pcustomerDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/netbank/ppayment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/netbank/ppaymentDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/payment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/unifiedDetail/chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/unifiedDetail/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/unifiedDetail/payment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/ods/tongji/withdraw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/config/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/config/config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/config/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dept/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dept/dept.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dept/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dept/tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dict/data/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dict/data/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dict/data/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dict/type/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dict/type/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/dict/type/type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/menu/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/menu/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/menu/icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/menu/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/menu/tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/notice/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/notice/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/notice/notice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/post/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/post/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/post/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/role/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/role/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/role/role.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/role/rule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/grant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/profile/avatar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/profile/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/profile/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/profile/resetPwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/resetPwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/system/user/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/tool/build/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/tool/gen/gen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/html/add.html.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/html/edit.html.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/html/list.html.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/java/Controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/java/Mapper.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/java/Service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/java/ServiceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/java/domain.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/sql/sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RuoYi-fast/src/main/resources/templates/vm/xml/Mapper.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/controller/SzphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/controller/SzphController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/data-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/schema-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/controller/${entityName}Controller.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/entity/${entityName}.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/mapper/${entityName}Mapper.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/mapper/xml/${entityName}Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/service/I${entityName}Service.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/service/impl/${entityName}ServiceImpl.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/vue/${entityName}List.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal__Style#Drawer.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/controller/${entityPackage}/${entityName}Controller.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/entity/${entityPackage}/${entityName}.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/mapper/${entityPackage}/${entityName}Mapper.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/mapper/${entityPackage}/xml/${entityName}Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/service/${entityPackage}/I${entityName}Service.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/service/${entityPackage}/impl/${entityName}ServiceImpl.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/vue/${entityPackage}/${entityName}List.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/vue/${entityPackage}/modules/${entityName}Modal.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/vue/${entityPackage}/modules/${entityName}Modal__Style#Drawer.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/controller/${entityName}Controller.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/entity/${entityName}.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/entity/[1-n]Entity.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/${entityName}Mapper.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/[1-n]Mapper.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/xml/${entityName}Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/xml/[1-n]Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/I${entityName}Service.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/[1-n]Service.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/impl/${entityName}ServiceImpl.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/impl/[1-n]ServiceImpl.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/vo/${entityName}Page.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/vue/${entityName}List.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/controller/${entityName}Controller.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/entity/${entityName}.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/entity/[1-n]Entity.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/${entityName}Mapper.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/[1-n]Mapper.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/xml/${entityName}Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/xml/[1-n]Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/I${entityName}Service.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/[1-n]Service.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/impl/${entityName}ServiceImpl.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/impl/[1-n]ServiceImpl.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vo/${entityName}Page.javai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/${entityName}List.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/[1-n]List.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/modules/[1-n]Modal.vuei" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/jeecg_config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jeecg/jeecg_database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgOneGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgOneToMainUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgWebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/api/vo/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/AutoLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/DictAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/PermissionDataAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/annotation/AutoLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/annotation/Dict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/annotation/PermissionData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/CommonConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/CommonSendStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/DataBaseConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/FrontCodeConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/exception/JeecgBootException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/exception/JeecgBootExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/CommonProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/JsonSchemaDescrip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/JsonschemaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/validate/NumberProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/validate/StringProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/api/ISysBaseAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/controller/CommonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryRuleEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/IPUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/PasswordUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/SpringContextUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/UUIDGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/YouBianCodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/oConvertUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/ObjectParseUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/ObjectParseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/QueryRuleEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/QueryRuleVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/AutoPoiConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/MultipartConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/RedisConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/Swagger2Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/WebMvcConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/mybatis/MybatisInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/front/FrontController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/controller/SysMessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/controller/SysMessageTemplateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/entity/MsgParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/entity/SysMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/entity/SysMessageTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/ISendMsgHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/enums/SendMsgStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/enums/SendMsgTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/impl/EmailSendMsgHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/impl/SmsSendMsgHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/impl/WxSendMsgHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/job/SendMsgJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/SysMessageMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/SysMessageTemplateMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/xml/SysMessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/xml/SysMessageTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/ISysMessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/ISysMessageTemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/impl/SysMessageServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/impl/SysMessageTemplateServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/util/PushMsgUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/controller/RedisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/domain/RedisInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/exception/RedisConnectException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/service/RedisService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/service/impl/RedisServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/aop/LogRecordAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/controller/NgAlainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/mapper/NgAlainMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/mapper/xml/NgAlainMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/service/NgAlainService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/service/impl/NgAlainServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportHeadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportParamController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/def/CgReportConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/entity/OnlCgreportHead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/entity/OnlCgreportItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/entity/OnlCgreportParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/OnlCgreportHeadMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/OnlCgreportItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/OnlCgreportParamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportHeadMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportParamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/model/OnlCgreportModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/CgReportExcelServiceI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/IOnlCgreportHeadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/IOnlCgreportItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/IOnlCgreportParamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/CgReportExcelServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/OnlCgreportHeadServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/OnlCgreportItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/OnlCgreportParamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/BrowserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/BrowserUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/CgReportQueryParamUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/SqlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/cw/controller/CwController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/cw/entity/Cw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/cw/mapper/CwMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/cw/mapper/xml/CwMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/cw/service/ICwService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/cw/service/impl/CwServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/detail/controller/DetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/detail/entity/Detail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/detail/mapper/DetailMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/detail/mapper/xml/DetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/detail/service/IDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/detail/service/impl/DetailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/jd/controller/JdController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/jd/entity/Jd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/jd/mapper/JdMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/jd/mapper/xml/JdMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/jd/service/IJdService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/jd/service/impl/JdServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/controller/ProjectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/entity/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/entity/ProjectIdModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/entity/ProjectTreeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/mapper/ProjectMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/mapper/xml/ProjectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/service/IProjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/service/impl/ProjectServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/project/utils/FindProjectListUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/szph/controller/SzphController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/szph/entity/Szph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/szph/mapper/SzphMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/szph/mapper/xml/SzphMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/szph/service/ISzphService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/szph/service/impl/SzphServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zhuser/controller/ZhUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zhuser/entity/ZhUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zhuser/mapper/ZhUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zhuser/mapper/xml/ZhUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zhuser/service/IZhUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zhuser/service/impl/ZhUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlbt/controller/BtController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlbt/entity/Bt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlbt/mapper/BtMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlbt/mapper/xml/BtMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlbt/service/IBtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlbt/service/impl/BtServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlzx/controller/ZxController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlzx/entity/Zx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlzx/mapper/ZxMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlzx/mapper/xml/ZxMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlzx/service/IZxService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/project/zlzx/service/impl/ZxServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/controller/QuartzJobController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/entity/QuartzJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/job/SampleJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/job/SampleParamJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/mapper/QuartzJobMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/mapper/xml/QuartzJobMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/service/IQuartzJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/service/impl/QuartzJobServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/JwtToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/aop/JwtFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/aop/ResourceCheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/vo/DefContants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/vo/ResponseBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/vo/UserBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/web/TestWebController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/DuplicateCheckController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysAnnouncementController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDataLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDepartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDictController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDictItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysPermissionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysAnnouncement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDataLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDepart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDictItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysPermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysPermissionDataRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysRolePermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUserDepart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysAnnouncementMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDataLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDepartMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDictItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDictMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysPermissionDataRuleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysPermissionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysRolePermissionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserDepartMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysAnnouncementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDataLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDepartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDictItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysPermissionDataRuleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysPermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysUserDepartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/DepartIdModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/DuplicateCheckVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysDepartTreeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysDictTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysLoginModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysPermissionTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysUserCacheInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysUserDepartsVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/TreeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/TreeSelectModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysAnnouncementService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDataLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDepartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDictItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysPermissionDataRuleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysPermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysRolePermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserDepartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/AutoPoiDictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysBaseAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDataLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDepartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDictItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDictServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysPermissionDataRuleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysPermissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysRolePermissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserDepartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/util/FindsDepartsChildrenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/util/JeecgDataAutorUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/util/PermissionDataUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/vo/SysDictPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/demo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/view/userlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo3.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jeecg-boot.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jeecg-boot.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/jeecg/SampleTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="jeecg-boot" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/FrontController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="709">
+              <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6930#6942#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/controller/SzphController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/entity/Szph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2856">
+              <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/JeecgApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/entity/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/controller/ProjectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/service/IProjectService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>childDetailById</find>
+      <find>data</find>
+      <find>聊天</find>
+      <find>轮训</find>
+      <find>childLtMsg</find>
+      <find>selectLtList</find>
+      <find>redirect</find>
+      <find>url</find>
+      <find>hidden</find>
+      <find>route</find>
+      <find>alwaysShow</find>
+      <find>title</find>
+      <find>key</find>
+      <find>children</find>
+      <find>反馈</find>
+      <find>like</find>
+      <find>parentMsg</find>
+      <find>token失效</find>
+      <find>yyConfirm</find>
+      <find>YYYY</find>
+      <find>离开</find>
+      <find>leave</find>
+      <find>error9999</find>
+      <find>list</find>
+      <find>hudong</find>
+      <find>isLeaf</find>
+      <find>findChildren</find>
+      <find>queryTreeList</find>
+      <find>pid</find>
+      <find>getData</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Parent</replace>
+      <replace>feedback</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/child/service/impl/ChildServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/child/service/IChildService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/child/mapper/ChildMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/msm/entity/MsmMqTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/cj/entity/Cj.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/xuexi/service/IXueXiService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/xuexi/service/impl/XueXiServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/xuexi/mapper/XueXiMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/xuexi/mapper/xml/XueXiMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/fd/service/IFdService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/fd/service/impl/FdServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/FrontCjController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/ParentKeTangShouHuoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/xuexi/entity/SearchDomain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/xuexi/entity/XueXi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/liaotian/entity/LiaoTian.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/FrontXueXiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/FrontLiaotianController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/xuexi/controller/XueXiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/liaotian/controller/LiaoTianController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/fd/entity/Fd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/mqx/controller/MqXQingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/msm/controller/MsmController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/ExecuteTimeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/hudong/fd/mapper/xml/FdMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jeecg/jeecg_config.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/jeecg/jeecg_database.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlzx/controller/ZxController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlbt/controller/BtController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/service/IProjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/service/impl/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/utils/FindProjectListUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/cw/controller/CwController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/jd/controller/JdController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zhuser/entity/ZhUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/FrontChildController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/cw/entity/Cw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlbt/entity/Bt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/entity/Szph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlzx/entity/Zx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/entity/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/entity/ProjectIdModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/jd/entity/Jd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/entity/ProjectTreeModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/FrontController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/JeecgApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/controller/SzphController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="D:/soft/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jeecg-boot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jeecg-boot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="szph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="szph" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="zlzx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="zlzx" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectManager-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectManager-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3433155" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jeecg.modules.front" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\projectManager-back\src\main\java\org\jeecg\modules\project" />
+      <recent name="E:\workspace\hudong-back\src\main\java\org\jeecg\modules\hudong" />
+      <recent name="E:\workspace\hudong-back\src\main\java\org\jeecg\modules\hudong\feedback" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.jeecg">
+    <configuration name="JeecgOneGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jeecg.JeecgOneGUI" />
+      <module name="jeecg-boot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jeecg" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.jeecg.JeecgApplication" />
+      <module name="jeecg-boot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JeecgOneGUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="950ebc79-b3f8-48bd-9c54-99109cbecf14" name="Default Changelist" comment="" />
+      <created>1559284804719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559284804719</updated>
+      <workItem from="1559284807700" duration="622000" />
+      <workItem from="1559286833482" duration="3720000" />
+      <workItem from="1559293912076" duration="791000" />
+      <workItem from="1559352248726" duration="518000" />
+      <workItem from="1559352797711" duration="632000" />
+      <workItem from="1559353525388" duration="576000" />
+      <workItem from="1559354130665" duration="280000" />
+      <workItem from="1559354450736" duration="1853000" />
+      <workItem from="1559372773770" duration="10000" />
+      <workItem from="1559372997539" duration="693000" />
+      <workItem from="1559532281226" duration="17010000" />
+      <workItem from="1559698638900" duration="26466000" />
+      <workItem from="1560128051513" duration="5618000" />
+      <workItem from="1560155563389" duration="3678000" />
+      <workItem from="1560214650241" duration="2155000" />
+      <workItem from="1560218932616" duration="172000" />
+      <workItem from="1560219134327" duration="28000" />
+      <workItem from="1560225619306" duration="658000" />
+      <workItem from="1560229405125" duration="2302000" />
+      <workItem from="1561020601038" duration="1526000" />
+      <workItem from="1561022173006" duration="1243000" />
+      <workItem from="1561023488793" duration="493000" />
+      <workItem from="1561024009287" duration="606000" />
+      <workItem from="1561024859296" duration="1122000" />
+      <workItem from="1561026068516" duration="170503000" />
+      <workItem from="1562035899624" duration="3471000" />
+      <workItem from="1562049999509" duration="538000" />
+      <workItem from="1562050567689" duration="36181000" />
+      <workItem from="1562201406272" duration="43811000" />
+      <workItem from="1562657029087" duration="4121000" />
+      <workItem from="1563157861513" duration="12836000" />
+      <workItem from="1563238588044" duration="18379000" />
+      <workItem from="1563359028226" duration="35000000" />
+      <workItem from="1563761146527" duration="4020000" />
+      <workItem from="1563784553086" duration="5712000" />
+      <workItem from="1563848192513" duration="12106000" />
+    </task>
+    <task id="LOCAL-00001" summary="正式版1">
+      <created>1559356537849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559356537849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="419450000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49777284" visible="true" weight="0.19808307" />
+      <window_info id="Structure" order="1" sideWeight="0.5022272" side_tool="true" weight="0.22790202" />
+      <window_info id="Web" order="2" sideWeight="0.50223213" side_tool="true" weight="0.18976545" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5011161" side_tool="true" weight="0.18336888" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.44060475" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893504" weight="0.44816414" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49893504" weight="0.32829374" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.32937366" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.44816414" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32829374" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.15548456" />
+      <window_info anchor="right" id="Bean Validation" order="5" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49777284" visible="true" weight="0.19169329" />
+      <window_info id="Structure" order="1" sideWeight="0.5022272" side_tool="true" weight="0.22790202" />
+      <window_info id="Web" order="2" sideWeight="0.50223213" side_tool="true" weight="0.18976545" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5011161" side_tool="true" weight="0.18336888" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.44060475" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49893504" visible="true" weight="0.44816414" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49893504" weight="0.32829374" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.32937366" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50106496" side_tool="true" weight="0.44816414" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32829374" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.15548456" />
+      <window_info anchor="right" id="Bean Validation" order="5" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="正式版1" />
+    <option name="LAST_COMMIT_MESSAGE" value="正式版1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/jeecg/common/system/controller/CommonController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/ParentKeTangShouHuoController.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jeecg/jeecg_database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/cw/vue/modules/CwModal.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/cw/vue/CwList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysUserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/vo/SysDictPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/ISysDepartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysDepart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/model/SysDepartTreeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="112" selection-start-line="105" selection-start-column="4" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/impl/SysDepartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="82" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/util/FindsDepartsChildrenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/model/DepartIdModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysDepartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="147" column="32" selection-start-line="147" selection-start-column="32" selection-end-line="147" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/jeecgframework/autopoi/1.0.2/autopoi-1.0.2.jar!/org/jeecgframework/poi/excel/annotation/Excel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/common/constant/CommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/common/api/vo/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/com/baomidou/mybatis-plus-extension/3.0.6/mybatis-plus-extension-3.0.6.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/cw/controller/CwController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/jeecgframework/autopoi/1.0.2/autopoi-1.0.2.jar!/org/jeecgframework/poi/excel/entity/ImportParams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/jeecgframework/autopoi/1.0.2/autopoi-1.0.2.jar!/org/jeecgframework/poi/excel/entity/result/ExcelImportResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/jeecgframework/autopoi/1.0.2/autopoi-1.0.2.jar!/org/jeecgframework/poi/excel/imports/ExcelImportServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/jeecgframework/autopoi/1.0.2/autopoi-1.0.2.jar!/org/jeecgframework/poi/excel/ExcelImportUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zhuser/vue/modules/ZhUserModal.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zhuser/controller/ZhUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zhuser/entity/ZhUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/JeecgOneGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/cw/entity/Cw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlzx/controller/ZxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1493">
+          <caret line="190" column="55" lean-forward="true" selection-start-line="190" selection-start-column="55" selection-end-line="190" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlbt/controller/BtController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="207" column="44" lean-forward="true" selection-start-line="207" selection-start-column="44" selection-end-line="207" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/service/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/utils/FindProjectListUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlbt/entity/Bt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/jd/entity/Jd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/zlzx/entity/Zx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/entity/ProjectIdModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/entity/ProjectTreeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/jd/controller/JdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4704">
+          <caret line="226" column="15" selection-start-line="226" selection-start-column="15" selection-end-line="226" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/service/IProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/project/entity/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/JeecgApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/front/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6930#6942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/entity/Szph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/project/szph/controller/SzphController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>jeecg-boot:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3433155" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (hudong)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3433155" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3433155" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jeecg-boot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3433155" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3433155" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
